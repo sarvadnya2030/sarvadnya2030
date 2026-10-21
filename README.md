@@ -13,18 +13,37 @@
 
 </div>
 
+## ⚡ By the numbers
+
+<div align="center">
+
+![txns](https://img.shields.io/badge/100K-txns_load_tested-0f2027?style=for-the-badge&labelColor=36BCF7)
+![p95](https://img.shields.io/badge/122ms-p95_latency-0f2027?style=for-the-badge&labelColor=36BCF7)
+![logs](https://img.shields.io/badge/4.4M-ELK_events_traced-0f2027?style=for-the-badge&labelColor=36BCF7)
+![parts](https://img.shields.io/badge/48K%2B-parts_searchable_in_%3C2s-0f2027?style=for-the-badge&labelColor=36BCF7)
+![wins](https://img.shields.io/badge/7%2B-competition_wins-0f2027?style=for-the-badge&labelColor=FFD21E)
+![pubs](https://img.shields.io/badge/2-peer--reviewed_papers-0f2027?style=for-the-badge&labelColor=FFD21E)
+
+</div>
+
 ## 👋 About
 
 B.Tech Computer Engineering at **VIT Pune** (2023–27, top 1% of the department). I like the layer where systems meet intelligence: a kernel's page-fault handler, a Kafka consumer group at 100K txns, an LLM agent that has to be provably right. Currently a **Software Engineering Intern at Barclays**, building an ECDD / AML compliance platform (Java, Spring Boot, React, Oracle, OpenShift).
 
-## 🏆 Highlights
+## 🏆 Trophy wall
 
-| | |
-|---|---|
-| 🥇 | **1st Prize**, Impetus PICT InC 2026 (International) · **1st**, iMocha AI Hackathon 2026 · **1st**, TECHTHESIS 2025 |
-| 🥈 | 2nd IETE NLPC 2025 · 3rd ASPIRE 2K25 · Top 12 Aavishkar 2025 (Govt. of Maharashtra) |
-| 📄 | **IEEE SILCON 2024**: LoRA/QLoRA for domain-specific NLP · **IJRES 2025**: classical-ML ADAS on Raspberry Pi |
-| 🤗 | 1,200+ downloads on [Hugging Face](https://huggingface.co/Ram20307) |
+| Year | Result | Event |
+|---|---|---|
+| 2026 | 🥇 **1st Prize** | Impetus PICT InC (International): Sanjaya |
+| 2026 | 🥇 **1st Place** | iMocha AI Hackathon (won in-house while interning there) |
+| 2025 | 🏛️ **Top 12** | **Aavishkar Research Convention** (Govt. of Maharashtra): state-level, represented SPPU |
+| 2025 | 🥇 **1st Place** | TECHTHESIS Bharatiyugam (National Research Innovation) |
+| 2025 | 🥈 **2nd Place** | IETE NLPC (National, 61 teams) |
+| 2025 | 🥉 **3rd Place** | ASPIRE 2K25 (National, 50+ teams) |
+| 2024 | 🥇 **1st Place** | Pulzion'24 Applied Research Expo, PICT ACM |
+| 2024 | 🥉 **3rd Place** | Navdhara 2024 |
+
+📄 **IEEE SILCON 2024**: LoRA/QLoRA fine-tuning for domain-specific NLP · **IJRES 2025**: classical-ML ADAS (XGBoost, SIFT, ORB) on Raspberry Pi edge hardware · 🤗 [1,200+ downloads](https://huggingface.co/Ram20307) on medical-domain summarization models.
 
 ## 🚀 Featured work
 
@@ -36,6 +55,25 @@ B.Tech Computer Engineering at **VIT Pune** (2023–27, top 1% of the department
 | [**AI Compiler Optimizer**](https://github.com/sarvadnya2030/AI-Compiler-Optimizer) | An LLM proposes code optimizations; a **Z3 verifier proves equivalence** or returns a counterexample. The LLM is never trusted for correctness. | `Python` `Z3` |
 | [**SLM Reasoning Research**](https://github.com/sarvadnya2030/Rsearch_Experiments_SLM) | Pre-registered experiments on which reasoning supervision actually helps small models (Qwen3-0.6B, GSM8K). Baselines before claims. | `PyTorch` `Transformers` |
 | [**HC01 ICU Decision Support**](https://github.com/sarvadnya2030/ignisia-mitwpu-hackathon) | 8-agent parallel clinical pipeline with z-score outlier holds, RAG guidelines and Nemotron-120B synthesis. | `FastAPI` `NVIDIA NIM` `MIMIC-III` |
+| **TE AI Cup** | Led Team VishwaSena (5) in TE Connectivity's international AI Cup: SAP analytics, XGBoost demand forecasting and CLIP + DINOv2 part search over **48,000+ parts** and **128,000+ yearly SAP transactions**, identification in under 2 s, projecting **€150K savings** over 5 years. | `CLIP` `DINOv2` `XGBoost` `SHAP` `React` |
+
+<details open>
+<summary><b>🔬 ClearFlow: how a payment moves</b></summary>
+
+```mermaid
+flowchart LR
+    A[WebFlux<br/>gateway] --> B[LightGBM<br/>fraud score]
+    B --> C[IBAN / BIC /<br/>embargo checks]
+    C --> D[Camunda BPMN<br/>AML screening]
+    D --> E[(Cassandra<br/>double-entry<br/>settlement)]
+    E --> F[SHA-256<br/>audit trail]
+    A -. 9 partitions · 6 consumer groups .- D
+    F -. 4.4M log events .-> G{{RCA agent<br/>Nemotron-120B}}
+```
+
+p50 49 ms · p95 122 ms · p99 167 ms · 95% acceptance with correct AML rejections · Kafka consumer lag 0 after drain.
+
+</details>
 
 ## 💼 Experience
 
