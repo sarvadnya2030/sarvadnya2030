@@ -59,11 +59,6 @@ B.Tech Computer Engineering at **VIT Pune** (2023–27, top 1% of the department
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=sarvadnya2030&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="stats" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sarvadnya2030&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="langs" />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sarvadnya2030/sarvadnya2030/output/snake-dark.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/sarvadnya2030/sarvadnya2030/output/snake.svg" />
-</picture>
-
 </div>
 
 <div align="center">
