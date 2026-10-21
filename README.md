@@ -30,6 +30,11 @@ B.Tech Computer Engineering at **VIT Pune** (2023–27, top 1% of the department
 
 ## 🏆 Trophy wall
 
+<img src="assets/badges.svg" alt="12 achievement badges: competition wins, publications, Barclays internship" width="100%" />
+
+<details>
+<summary><b>Full list</b></summary>
+
 | Year | Result | Event |
 |---|---|---|
 | 2026 | 🥇 **1st Prize** | Impetus PICT InC (International): Sanjaya |
@@ -40,6 +45,8 @@ B.Tech Computer Engineering at **VIT Pune** (2023–27, top 1% of the department
 | 2025 | 🥉 **3rd Place** | ASPIRE 2K25 (National, 50+ teams) |
 | 2024 | 🥇 **1st Place** | Pulzion'24 Applied Research Expo, PICT ACM |
 | 2024 | 🥉 **3rd Place** | Navdhara 2024 |
+
+</details>
 
 📄 **IEEE SILCON 2024**: LoRA/QLoRA fine-tuning for domain-specific NLP · **IJRES 2025**: classical-ML ADAS (XGBoost, SIFT, ORB) on Raspberry Pi edge hardware · 🤗 [1,200+ downloads](https://huggingface.co/Ram20307) on medical-domain summarization models.
 
