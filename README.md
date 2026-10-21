@@ -1,39 +1,75 @@
 <div align="center">
 
-# Sarvadnya Bhatlawande
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0f2027,50:203a43,100:2c5364&text=Sarvadnya%20Bhatlawande&fontColor=ffffff&fontSize=44&fontAlignY=38&desc=Systems%20%C2%B7%20Backends%20%C2%B7%20Applied%20AI&descAlignY=58&descSize=18" alt="header" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=LLM+agents+%2B+retrieval+systems;Backends+that+I+actually+test;Measuring+what+models+really+do" alt="typing animation" />
+<a href="https://github.com/sarvadnya2030"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=900&color=36BCF7&center=true&vCenter=true&width=640&lines=OS+internals+%C2%B7+distributed+systems+%C2%B7+LLM+agents;100K+txns+at+p95+%3D+122ms+(ClearFlow);1st+Prize+Impetus+PICT+InC+2026+(International);Measure+first.+Then+claim." alt="typing" /></a>
 
-📍 Pune · 🧠 LLM agents · 🔎 RAG · ☕ Java/Spring · 🧪 Measure first
+![Barclays](https://img.shields.io/badge/Barclays-SWE_Intern_2026-00AEEF?logo=barclays&logoColor=white)
+![iMocha](https://img.shields.io/badge/iMocha-AI%2FML_Intern-7B61FF)
+![VIT](https://img.shields.io/badge/VIT_Pune-GPA_9.25%2F10-B71C1C)
+![IEEE](https://img.shields.io/badge/IEEE-SILCON_2024-00629B?logo=ieee&logoColor=white)
+[![HF](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-1%2C200%2B_downloads-FFD21E)](https://huggingface.co/Ram20307)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/sarvadnya-bhatlawande)
 
 </div>
 
----
+## 👋 About
 
-### 🔭 Now
+B.Tech Computer Engineering at **VIT Pune** (2023–27, top 1% of the department). I like the layer where systems meet intelligence: a kernel's page-fault handler, a Kafka consumer group at 100K txns, an LLM agent that has to be provably right. Currently a **Software Engineering Intern at Barclays**, building an ECDD / AML compliance platform (Java, Spring Boot, React, Oracle, OpenShift).
+
+## 🏆 Highlights
+
 | | |
 |---|---|
-| 🤖 | Multi-agent LLM pipelines |
-| 📚 | RAG over real, messy documents |
-| 🔬 | What reasoning supervision does for small models |
-| ⚙️ | Java/Spring backends with Kafka and Camel |
+| 🥇 | **1st Prize**, Impetus PICT InC 2026 (International) · **1st**, iMocha AI Hackathon 2026 · **1st**, TECHTHESIS 2025 |
+| 🥈 | 2nd IETE NLPC 2025 · 3rd ASPIRE 2K25 · Top 12 Aavishkar 2025 (Govt. of Maharashtra) |
+| 📄 | **IEEE SILCON 2024**: LoRA/QLoRA for domain-specific NLP · **IJRES 2025**: classical-ML ADAS on Raspberry Pi |
+| 🤗 | 1,200+ downloads on [Hugging Face](https://huggingface.co/Ram20307) |
 
-### 🛠 Stack
+## 🚀 Featured work
 
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=springboot&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?logo=apachekafka&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
+| Project | What it is | Stack |
+|---|---|---|
+| [**ClearFlow**](https://github.com/sarvadnya2030/Clearflow) | ISO 20022 payment platform: 10 microservices, WebFlux gateway → LightGBM fraud scoring → AML screening → Cassandra double-entry settlement → SHA-256 audit. Load-tested at **100K txns, p95 = 122 ms, consumer lag 0**. Includes an RCA agent over **4.4M ELK events** that rebuilds cascade failure chains via correlationId. | `Java 21` `Spring Boot 3` `Kafka` `K8s` `Cassandra` `NVIDIA NIM` |
+| **Sanjaya** | Video analytics for surveillance: saliency gating (~50% fewer frames), tracking, int8 VLM (~70% less VRAM), Neo4j knowledge graph (10 node / 15+ relation types) and a **Hybrid RAG** (GraphRAG + FAISS + JSON). 🥇 Impetus PICT InC 2026. | `Python` `FastAPI` `Neo4j` `FAISS` `OpenCV` |
+| [**MOS**](https://github.com/sarvadnya2030/MOS) | Multiprogramming OS simulator: page tables, demand paging, page-fault handling, interrupt-driven kernel, PCB scheduling with load/ready/IO/terminate queues. | `C++` |
+| [**AI Compiler Optimizer**](https://github.com/sarvadnya2030/AI-Compiler-Optimizer) | An LLM proposes code optimizations; a **Z3 verifier proves equivalence** or returns a counterexample. The LLM is never trusted for correctness. | `Python` `Z3` |
+| [**SLM Reasoning Research**](https://github.com/sarvadnya2030/Rsearch_Experiments_SLM) | Pre-registered experiments on which reasoning supervision actually helps small models (Qwen3-0.6B, GSM8K). Baselines before claims. | `PyTorch` `Transformers` |
+| [**HC01 ICU Decision Support**](https://github.com/sarvadnya2030/ignisia-mitwpu-hackathon) | 8-agent parallel clinical pipeline with z-score outlier holds, RAG guidelines and Nemotron-120B synthesis. | `FastAPI` `NVIDIA NIM` `MIMIC-III` |
 
-**AI & retrieval:** NVIDIA NIM · Ollama · FAISS · ChromaDB · Z3
+## 💼 Experience
 
----
+- **Barclays**, SWE Intern, Pune (Jun–Aug 2026): ECDD compliance platform for PEP screening, adverse media and AML case management in a regulated environment.
+- **iMocha**, AI/ML Engineer Intern (Dec 2025–May 2026): skills-NER pipeline at **0.8 s/resume** (Redis + thread pool), fine-tuned LLMs to **83.8%** grounding accuracy, shipped real-time face-recognition proctoring to production.
+
+## 🛠 Toolbox
 
 <div align="center">
 
-Want to see how something works? Open the repo and read the numbers.
+<img src="https://skillicons.dev/icons?i=c,cpp,java,py,spring,fastapi,react,kafka,docker,kubernetes,postgres,oracle,redis,cassandra,mongodb,neo4j,pytorch,linux,bash,gitlab,githubactions,prometheus,elastic&perline=12" alt="skills" />
+
+</div>
+
+**Also:** Hugging Face · FAISS · OpenCV · LoRA/QLoRA · Camunda · OpenTelemetry · WebFlux · NVIDIA NIM · Ollama · Z3
+
+## 📊 Stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=sarvadnya2030&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sarvadnya2030&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="langs" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sarvadnya2030/sarvadnya2030/output/snake-dark.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/sarvadnya2030/sarvadnya2030/output/snake.svg" />
+</picture>
+
+</div>
+
+<div align="center">
+
+📍 Pune, India · ✉️ [sarvadnya.bhatlawande2005@gmail.com](mailto:sarvadnya.bhatlawande2005@gmail.com)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=90&color=0:2c5364,100:0f2027&section=footer" alt="footer" />
 
 </div>
