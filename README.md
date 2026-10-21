@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0f2027,50:203a43,100:2c5364&text=Sarvadnya%20Bhatlawande&fontColor=ffffff&fontSize=44&fontAlignY=38&desc=Systems%20%C2%B7%20Backends%20%C2%B7%20Applied%20AI&descAlignY=58&descSize=18" alt="header" />
-
-<a href="https://github.com/sarvadnya2030"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=900&color=36BCF7&center=true&vCenter=true&width=640&lines=OS+internals+%C2%B7+distributed+systems+%C2%B7+LLM+agents;100K+txns+at+p95+%3D+122ms+(ClearFlow);1st+Prize+Impetus+PICT+InC+2026+(International);Measure+first.+Then+claim." alt="typing" /></a>
+<img src="assets/hero.svg" alt="Sarvadnya Bhatlawande: AI Research, Backend, Distributed Systems" width="100%" />
 
 ![Barclays](https://img.shields.io/badge/Barclays-SWE_Intern_2026-00AEEF?logo=barclays&logoColor=white)
 ![iMocha](https://img.shields.io/badge/iMocha-AI%2FML_Intern-7B61FF)
@@ -44,6 +42,12 @@ B.Tech Computer Engineering at **VIT Pune** (2023–27, top 1% of the department
 | 2024 | 🥉 **3rd Place** | Navdhara 2024 |
 
 📄 **IEEE SILCON 2024**: LoRA/QLoRA fine-tuning for domain-specific NLP · **IJRES 2025**: classical-ML ADAS (XGBoost, SIFT, ORB) on Raspberry Pi edge hardware · 🤗 [1,200+ downloads](https://huggingface.co/Ram20307) on medical-domain summarization models.
+
+## 🧭 What I work on
+
+<img src="assets/research.svg" alt="AI research: SLM reasoning, Z3-verified LLM output, GraphRAG" width="100%" />
+<img src="assets/distributed.svg" alt="Distributed systems: Kafka partitions, consumer groups, fault tolerance" width="100%" />
+<img src="assets/backend.svg" alt="Backend: payment pipeline from gateway to audit trail" width="100%" />
 
 ## 🚀 Featured work
 
